@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome('/home/nadaked/Desktop/chromedriver')  #chrome driver nerede tanımlı ise orası
+driver = webdriver.Chrome('/home/Desktop/chromedriver')  #chrome driver nerede tanımlı ise orası
 driver.get('https://web.whatsapp.com/')
 
 name = input('Enter the name of user or group : ') #whatsapp konuşmasındaki kişi yada grubun doğru ismi
